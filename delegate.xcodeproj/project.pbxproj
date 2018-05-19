@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0629CC5520B06EB500D75CEE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629CC5420B06EB500D75CEE /* SettingViewController.swift */; };
+		0629CC5720B06EC400D75CEE /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0629CC5620B06EC400D75CEE /* DeviceViewController.swift */; };
 		06B9D70220AEE32E0032E2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9D70120AEE32E0032E2E9 /* AppDelegate.swift */; };
-		06B9D70420AEE32E0032E2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9D70320AEE32E0032E2E9 /* ViewController.swift */; };
 		06B9D70720AEE32E0032E2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B9D70520AEE32E0032E2E9 /* Main.storyboard */; };
 		06B9D70920AEE32E0032E2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B9D70820AEE32E0032E2E9 /* Assets.xcassets */; };
 		06B9D70C20AEE32E0032E2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B9D70A20AEE32E0032E2E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0629CC5420B06EB500D75CEE /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0629CC5620B06EC400D75CEE /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		06B9D6FE20AEE32E0032E2E9 /* delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B9D70120AEE32E0032E2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06B9D70320AEE32E0032E2E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06B9D70620AEE32E0032E2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06B9D70820AEE32E0032E2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06B9D70B20AEE32E0032E2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				06B9D70120AEE32E0032E2E9 /* AppDelegate.swift */,
-				06B9D70320AEE32E0032E2E9 /* ViewController.swift */,
 				06B9D70520AEE32E0032E2E9 /* Main.storyboard */,
 				06B9D70820AEE32E0032E2E9 /* Assets.xcassets */,
 				06B9D70A20AEE32E0032E2E9 /* LaunchScreen.storyboard */,
 				06B9D70D20AEE32E0032E2E9 /* Info.plist */,
+				0629CC5420B06EB500D75CEE /* SettingViewController.swift */,
+				0629CC5620B06EC400D75CEE /* DeviceViewController.swift */,
 			);
 			path = delegate;
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B9D70420AEE32E0032E2E9 /* ViewController.swift in Sources */,
 				06B9D70220AEE32E0032E2E9 /* AppDelegate.swift in Sources */,
+				0629CC5520B06EB500D75CEE /* SettingViewController.swift in Sources */,
+				0629CC5720B06EC400D75CEE /* DeviceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = delegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fluffy.delegate;
@@ -290,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = delegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fluffy.delegate;
